@@ -1,4 +1,4 @@
-body {
+  body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,6 +8,11 @@ body {
     background-color: black;
     color: white;
     font-family: 'Poppins', sans-serif;
+  }
+  
+  .dark-mode {
+    background-color: #1a1a1a; /* Dark background color */
+    color: white;
   }
   
   .center {
