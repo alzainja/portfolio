@@ -3,21 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Portfolio</title>
+<title>Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <link rel="stylesheet" href="styles.css">
-<style>
-    .dark-mode .fab.fa-linkedin {
-      color: white;
-    }
-  </style>
 </head>
 <body class="dark-mode">
 <div class="center">
-    <h1>Jaffar Alzain</h1>
-    <p>Portfolio is under construction</p>
-    <p><a href="https://www.linkedin.com/in/j-alzain/" target="_blank"><i class="fab fa-linkedin""></i></a></p>
+  <div class="tic-tac-toe">
+    <div class="row">
+      <div class="cell" onclick="handleCellClick(this)"></div>
+      <div class="cell" onclick="handleCellClick(this)"></div>
+      <div class="cell" onclick="handleCellClick(this)"></div>
+    </div>
+    <div class="row">
+      <div class="cell" onclick="handleCellClick(this)"></div>
+      <div class="cell" onclick="handleCellClick(this)"></div>
+      <div class="cell" onclick="handleCellClick(this)"></div>
+    </div>
+    <div class="row">
+      <div class="cell" onclick="handleCellClick(this)"></div>
+      <div class="cell" onclick="handleCellClick(this)"></div>
+      <div class="cell" onclick="handleCellClick(this)"></div>
+    </div>
+  </div>
+  <div class="reset-button">
+    <button onclick="resetGame()">Reset Game</button>
+  </div>
+  <h1>Jaffar Alzain</h1>
+  <p>
+    <a href="https://www.linkedin.com/in/j-alzain/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/alzainja" target="_blank"><i class="fab fa-github"></i></a>
+  </p>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
